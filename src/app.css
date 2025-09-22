@@ -1,0 +1,173 @@
+/* Theme system with 3 color schemes */
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark brown theme */
+.theme-cocoa {
+  --primary-color: #8b4513;
+  --primary-text: #f5f5dc;
+  --bg-primary: #2c1810;
+  --bg-secondary: #3d2317;
+  --bg-tertiary: #4a2a1a;
+  --text-primary: #f5f5dc;
+  --text-secondary: #d2b48c;
+  --text-muted: #a0826d;
+  --border-color: #5d3a26;
+  --header-bg: #1f0f08;
+  --button-bg: #3d2317;
+  --button-hover-bg: #4a2a1a;
+  --input-bg: #3d2317;
+  --success-color: #228b22;
+  --warning-color: #daa520;
+  --error-color: #cd5c5c;
+  --card-bg: #3d2317;
+  
+  /* Exercise type colors */
+  --strength-color: #cd853f;
+  --strength-bg: rgba(205, 133, 63, 0.1);
+  --cardio-color: #fa8072;
+  --cardio-bg: rgba(250, 128, 114, 0.1);
+  --other-color: #9370db;
+  --other-bg: rgba(147, 112, 219, 0.1);
+}
+
+/* Warm orange theme */
+.theme-sunset {
+  --primary-color: #D97706;
+  --primary-text: #ffffff;
+  --bg-primary: #FEF3C7;
+  --bg-secondary: #FDE68A;
+  --bg-tertiary: #F59E0B;
+  --text-primary: #92400E;
+  --text-secondary: #B45309;
+  --text-muted: #D97706;
+  --border-color: #F59E0B;
+  --header-bg: #FBBF24;
+  --button-bg: #FCD34D;
+  --button-hover-bg: #F59E0B;
+  --input-bg: #FEF3C7;
+  --success-color: #DC2626;
+  --warning-color: #EA580C;
+  --error-color: #B91C1C;
+  --card-bg: #FDE68A;
+  
+  /* Exercise type colors */
+  --strength-color: #DC2626;
+  --strength-bg: rgba(220, 38, 38, 0.15);
+  --cardio-color: #EA580C;
+  --cardio-bg: rgba(234, 88, 12, 0.15);
+  --other-color: #7C3AED;
+  --other-bg: rgba(124, 58, 237, 0.15);
+}
+
+/* Clean light theme (default) */
+.theme-tundra {
+  --primary-color: #6366f1;
+  --primary-text: #ffffff;
+  --bg-primary: #f5f5f4;
+  --bg-secondary: #e7e5e4;
+  --bg-tertiary: #d6d3d1;
+  --text-primary: #44403c;
+  --text-secondary: #57534e;
+  --text-muted: #78716c;
+  --border-color: #c7c2bd;
+  --header-bg: #e7e5e4;
+  --button-bg: #f5f5f4;
+  --button-hover-bg: #e7e5e4;
+  --input-bg: #ffffff;
+  --success-color: #059669;
+  --warning-color: #d97706;
+  --error-color: #dc2626;
+  --card-bg: #ffffff;
+  
+  /* Exercise type colors */
+  --strength-color: #059669;
+  --strength-bg: rgba(5, 150, 105, 0.1);
+  --cardio-color: #dc2626;
+  --cardio-bg: rgba(220, 38, 38, 0.1);
+  --other-color: #6366f1;
+  --other-bg: rgba(99, 102, 241, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Form Elements */
+input,
+select,
+textarea {
+  background: var(--input-bg);
+  border: 2px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+/* Utility Classes */
+.card {
+  background: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.success-message {
+  background: var(--success-color);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row .form-group {
+  flex: 1;
+}

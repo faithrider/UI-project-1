@@ -1,0 +1,7 @@
+{
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "svelte.plugin.typescript.enable": false,
+  "svelte.plugin.typescript.diagnostics.enable": false,
+  "js/ts.implicitProjectConfig.checkJs": false
+}
