@@ -108,7 +108,7 @@ The header provides constant access to all major functions while displaying pers
 
 ### Theme Customization
 ![Tundra theme](public\img\tundra.png)
-![Cocoa theme](public\img\cocoa.png)
+![Cocoa theme](https://github.com/faithrider/UI-project-1/blob/main/public/img/cocoa.png)
 ![Sunset theme (with popup)](public\img\sunset.png)
 
 **Three Theme Options:**
