@@ -23,7 +23,12 @@ My Strength Fitness Tracker is a modern web application designed for fitness ent
 ## Design Process
 
 ### Research & Interviewing
-Initial user research focused on understanding pain points with existing fitness tracking solutions:
+I wanted to understand how people currently approach journaling or tracking their workouts, and what makes a tracker feel useful versus overwhelming. I was also looking for insights about which features they find essential and which can be left out.
+
+#### Questions I Asked
+- What information feels most important to record for strength training?
+- Do you currently track your workouts or activities? If so, how?
+- What does "success" mean to you in your fitness goals?
 
 **Key Insights from User Interviews:**
 - Users wanted flexibility to track different exercise types in one workout
@@ -34,7 +39,10 @@ Initial user research focused on understanding pain points with existing fitness
 ### Sketching & Wireframing
 Early design exploration focused on layout and information hierarchy:
 
-![Wireframe sketches for the evolution of the layout](img/wireframes.png)
+![Original Design](img/og-design.png)
+![Midpoint Iteration](img/midpoint1.png)
+![Another Midpoint Iteration](img/midpoint2.png)
+![Final Sketch](img/final-sketch.png)
 
 **Design Iterations:**
 1. **Initial Concept**: Single-page form-focused design
@@ -47,6 +55,19 @@ User testing revealed key improvements:
 - **Exercise Types**: Mixed workouts needed better visual differentiation
 - **Goals**: Personal goal setting was requested as a priority feature
 - **Themes**: Multiple color schemes fit to light/dark mode preference
+
+### Mock User Profile
+
+Name: Alex Morgan
+Age: 24
+Background: College student, works out 3–4 times per week, tracks workouts inconsistently in phone notes.
+Goals: Wants to improve strength in major lifts, keep better track of progress, and stay consistent week-to-week.
+How they use the app:
+- Logs workouts immediately after finishing them.
+- Tracks sets/reps/weight for main exercises, checks the warmup box, and occasionally adds notes/photos.
+- Looks back weekly to see how many sessions they completed.
+- Uses the weekly sessions goal feature to stay on track.
+- Switches themes occasionally to match their mood.
 
 ---
 
@@ -86,7 +107,9 @@ The header provides constant access to all major functions while displaying pers
 - **Historical Trends**: 8-week progression visualization
 
 ### Theme Customization
-![Theme selector showing three color schemes](img/themes.png)
+![Tundra theme](img/tundra.png)
+![Cocoa theme](img/cocoa.png)
+![Sunset theme (with popup)](img/sunset.png)
 
 **Three Theme Options:**
 - **Tundra (Default)**: Clean light theme optimized for readability
@@ -232,10 +255,10 @@ export const userGoals = writable({
 
 ## Links
 
-### [**Live Application**](link-to-hosted-app)
+### [**Live Application**](https://ui-project-1-ten.vercel.app/)
 Experience the full application with demo data pre-loaded.
 
-### [**Source Code on GitHub**](link-to-github-repo)
+### [**Source Code on GitHub**](https://github.com/faithrider/UI-project-1)
 Complete source code with development setup instructions.
 
 ---
