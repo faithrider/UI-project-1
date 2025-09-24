@@ -2,7 +2,7 @@
 
 **A comprehensive web application for tracking strength training, cardio, and diverse workout routines.**
 
-Built by **Faith Rider** | [Demo Video](#demo) | [Live Application](https://ui-project-1-ten.vercel.app/) | [Source Code](https://github.com/faithrider/UI-project-1)
+Built by **Faith Rider** | [Demo Video](https://teams.microsoft.com/l/meetingrecap?driveId=b%21d60FG8z4ZEy-u3V1ftkkIGnmMIhpvHVEqkqXDSXJpvymro0K-TDvSqwR_uCjhUaB&driveItemId=01CQAJ5MCE4JGHYW4R4RDY6YI5OZBLKLST&sitePath=https%3A%2F%2Fmailuc-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Friderfm_mail_uc_edu%2FEUTiTHxbkeRHj2EddkK1LlMBjyPx5ZFeLcGpkCItiFnMVQ&fileUrl=https%3A%2F%2Fmailuc-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Friderfm_mail_uc_edu%2FEUTiTHxbkeRHj2EddkK1LlMBjyPx5ZFeLcGpkCItiFnMVQ&threadId=19%3Ameeting_OTc3ZWVlZTAtNGMxZi00ZjllLWE2MjItZTYwMTIxOTg2MDMy%40thread.v2&organizerId=27e41b42-b5e7-4384-8487-1cd0e505cf87&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63&callId=e6de3bfa-61a2-4030-b8c2-a108baf51998&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapChiclet) | [Live Application](https://ui-project-1-ten.vercel.app/) | [Source Code](https://github.com/faithrider/UI-project-1)
 
 ---
 
@@ -249,7 +249,7 @@ export const userGoals = writable({
 
 ## Demo Video
 
-[🎥 **Watch 3-Minute Demo Video**](link-to-video)
+[🎥 **Watch the Demo Video**](https://teams.microsoft.com/l/meetingrecap?driveId=b%21d60FG8z4ZEy-u3V1ftkkIGnmMIhpvHVEqkqXDSXJpvymro0K-TDvSqwR_uCjhUaB&driveItemId=01CQAJ5MCE4JGHYW4R4RDY6YI5OZBLKLST&sitePath=https%3A%2F%2Fmailuc-my.sharepoint.com%2F%3Av%3A%2Fg%2Fpersonal%2Friderfm_mail_uc_edu%2FEUTiTHxbkeRHj2EddkK1LlMBjyPx5ZFeLcGpkCItiFnMVQ&fileUrl=https%3A%2F%2Fmailuc-my.sharepoint.com%2Fpersonal%2Friderfm_mail_uc_edu%2FDocuments%2Frandom_important%2Fmisc%2FRecordings%2FDemo%2520video%2520for%2520UI%2520p1-20250923_234428-Meeting%2520Recording.mp4%3Fweb%3D1&threadId=19%3Ameeting_OTc3ZWVlZTAtNGMxZi00ZjllLWE2MjItZTYwMTIxOTg2MDMy%40thread.v2&organizerId=27e41b42-b5e7-4384-8487-1cd0e505cf87&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63&callId=e6de3bfa-61a2-4030-b8c2-a108baf51998&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapCore)
 
 ---
 

@@ -192,7 +192,13 @@ export const workoutStore = {
   
   init: initWorkoutStore,
 
-  addEntry(entry) {
+   *     weight (number),
+   *     duration (string, ISO format without date),
+   *     intensity (string, e.g. "low", "moderate", "high")
+   *   warmupCompleted (boolean),
+   *   notes (string),
+   *   photo (string, URL of photo or null)
+   */
     entry.id = Date.now().toString()
     if (!entry.date) {
       entry.date = new Date().toISOString().split("T")[0]
