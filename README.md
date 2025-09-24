@@ -2,7 +2,7 @@
 
 **A comprehensive web application for tracking strength training, cardio, and diverse workout routines.**
 
-Built by **Faith Rider** | [Demo Video](#demo) | [Live Application](#live-app) | [Source Code](#source-code)
+Built by **Faith Rider** | [Demo Video](#demo) | [Live Application](https://ui-project-1-ten.vercel.app/) | [Source Code](https://github.com/faithrider/UI-project-1)
 
 ---
 
