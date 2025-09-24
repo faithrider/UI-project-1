@@ -39,10 +39,10 @@ I wanted to understand how people currently approach journaling or tracking thei
 ### Sketching & Wireframing
 Early design exploration focused on layout and information hierarchy:
 
-![Original Design](https://github.com/faithrider/UI-project-1/blob/main/public/img/og-design.png)
-![Midpoint Iteration](https://github.com/faithrider/UI-project-1/blob/main/public/img/midpoint1.png)
-![Another Midpoint Iteration](https://github.com/faithrider/UI-project-1/blob/main/public/img/midpoint2.png)
-![Final Sketch](https://github.com/faithrider/UI-project-1/blob/main/public/img/final-sketch.png)
+![Original Design](https://github.com/faithrider/UI-project-1/blob/main/public/img/og-design.PNG)
+![Midpoint Iteration](https://github.com/faithrider/UI-project-1/blob/main/public/img/midpoint1.PNG)
+![Another Midpoint Iteration](https://github.com/faithrider/UI-project-1/blob/main/public/img/midpoint2.PNG)
+![Final Sketch](https://github.com/faithrider/UI-project-1/blob/main/public/img/final-sketch.PNG)
 
 **Design Iterations:**
 1. **Initial Concept**: Single-page form-focused design
