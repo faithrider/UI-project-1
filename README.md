@@ -39,10 +39,10 @@ I wanted to understand how people currently approach journaling or tracking thei
 ### Sketching & Wireframing
 Early design exploration focused on layout and information hierarchy:
 
-![Original Design](public\img\og-design.png)
-![Midpoint Iteration](public\img\midpoint1.png)
-![Another Midpoint Iteration](public\img\midpoint2.png)
-![Final Sketch](public\img\final-sketch.png)
+![Original Design](https://github.com/faithrider/UI-project-1/blob/main/public/img/og-design.png)
+![Midpoint Iteration](https://github.com/faithrider/UI-project-1/blob/main/public/img/midpoint1.png)
+![Another Midpoint Iteration](https://github.com/faithrider/UI-project-1/blob/main/public/img/midpoint2.png)
+![Final Sketch](https://github.com/faithrider/UI-project-1/blob/main/public/img/final-sketch.png)
 
 **Design Iterations:**
 1. **Initial Concept**: Single-page form-focused design
@@ -74,12 +74,12 @@ How they use the app:
 ## Interface Design
 
 ### Main Navigation
-![Header navigation showing user info and view switcher](public\img\header.png)
+![Header navigation showing user info and view switcher](https://github.com/faithrider/UI-project-1/blob/main/public/img/header.png)
 
 The header provides constant access to all major functions while displaying personalized user information including days active and total workouts logged.
 
 ### Workout Entry Form
-![Entry form with hybrid exercise type selection](public\img\entry-form.png)
+![Entry form with hybrid exercise type selection](https://github.com/faithrider/UI-project-1/blob/main/public/img/entry-form.png)
 
 **Key Features:**
 - **Exercise Type Selection**: Per-exercise dropdown supporting strength, cardio, and other activities
@@ -89,7 +89,7 @@ The header provides constant access to all major functions while displaying pers
 - **Notes & Photos**: Rich context for workout sessions
 
 ### History & Editing
-![Weekly workout history with inline editing](public\img\history.png)
+![Weekly workout history with inline editing](https://github.com/faithrider/UI-project-1/blob/main/public/img/history.png)
 
 **Workout History Features:**
 - **Weekly Organization**: Accordion-style week navigation
@@ -98,7 +98,7 @@ The header provides constant access to all major functions while displaying pers
 - **Mixed Workout Indicators**: Special badges for workouts with multiple exercise types
 
 ### Progress Overview
-![Statistics dashboard with pie chart and goals](public\img\overview.png)
+![Statistics dashboard with pie chart and goals](https://github.com/faithrider/UI-project-1/blob/main/public/img/overview.png)
 
 **Analytics Dashboard:**
 - **Current Week Progress**: Real-time tracking against weekly goals
@@ -107,9 +107,9 @@ The header provides constant access to all major functions while displaying pers
 - **Historical Trends**: 8-week progression visualization
 
 ### Theme Customization
-![Tundra theme](public\img\tundra.png)
+![Tundra theme](https://github.com/faithrider/UI-project-1/blob/main/public/img/tundra.png)
 ![Cocoa theme](https://github.com/faithrider/UI-project-1/blob/main/public/img/cocoa.png)
-![Sunset theme (with popup)](public\img\sunset.png)
+![Sunset theme (with popup)](https://github.com/faithrider/UI-project-1/blob/main/public/img/sunset.png)
 
 **Three Theme Options:**
 - **Tundra (Default)**: Clean light theme optimized for readability
